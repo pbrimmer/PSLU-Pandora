@@ -22,9 +22,7 @@ where $R_p$ is the planetary radius, $\lambda$ the wavelength, and $R_*$ is the 
 
 At wavelengths where atmospheric molecules absorb strongly, the effective altitude of optical depth unity increases, and the planet appears larger. The amplitude of spectral features is controlled by the atmospheric scale height,
 
-$
-H = \dfrac{k_B T}{\mu m_p g},
-$
+$$H = \dfrac{k_B T}{\mu m_p g},$$
 
 which sets the vertical distance over which pressure decreases significantly. Hotter atmospheres, lower gravity, or lighter mean molecular weight gases all increase $H$, amplifying spectral modulation. The height of spectroscopic signals can give a hint at molecules that could be present in abundance in an atmosphere, and that would be otherwise difficult to detect, especially molecules with small or no dipole moment, such as N$_2$ or H$_2$.
 
@@ -44,19 +42,14 @@ When spectral features are weak or buried in noise, template matching provides a
 
 Given an observed spectrum $f(\lambda)$ and a template $g(\lambda)$, the discrete cross-correlation as a function of shift $\ell$ is
 
-$
-C(\ell) = \sum_{i} f_i , g_{i+\ell}.
-$
+$$C(\ell) = \sum_{i} f_i , g_{i+\ell}.$$
 
 Continuous form includes an integral in place of the sum.
 
 Often one subtracts the mean and normalizes by variances to compute a normalized cross-correlation coefficient:
 
-$
-C_{\text{norm}}(\ell) =
-\dfrac{\sum_i (f_i - \bar f)(g_{i+\ell} - \bar g)}
-{\sqrt{\sum_i (f_i - \bar f)^2 \sum_i (g_{i+\ell} - \bar g)^2}}.
-$
+
+$$C_{\text{norm}}(\ell) = \dfrac{\sum_i (f_i - \bar f)(g_{i+\ell} - \bar g)} {\sqrt{\sum_i (f_i - \bar f)^2 \sum_i (g_{i+\ell} - \bar g)^2}}.$$
 
 
 If the template molecule is present in the data, the cross-correlation function should exhibit a statistically significant peak near zero shift (or at a known Doppler shift, if velocity offsets are considered).
@@ -85,14 +78,7 @@ Suppose your atmospheric model predicts a transmission spectrum $ m(\lambda; \th
 
 Assuming Gaussian observational errors with variance $\sigma_i^2$, the likelihood is
 
-$
-\mathcal{L}(\theta) =
-\prod_i
-\dfrac{1}{\sqrt{2\pi \sigma_i^2}}
-\exp\left\{
--\dfrac{[f_i - m_i(\theta)]^2}{2\sigma_i^2}
-\right\}.
-$
+$$\mathcal{L}(\theta) = \prod_i \dfrac{1}{\sqrt{2\pi \sigma_i^2}} \exp\left\{-\dfrac{[f_i - m_i(\theta)]^2}{2\sigma_i^2} \right\}.$$
 
 ## Priors
 
@@ -106,11 +92,7 @@ Bayesian inference requires priors $P(\theta)$, which encode physical constraint
 
 By Bayes’ theorem,
 
-$
-P(\theta | \text{data}) =
-\dfrac{\mathcal{L}(\theta) P(\theta)}
-{P(\text{data})}.
-$
+$$P(\theta | \text{data}) = \dfrac{\mathcal{L}(\theta) P(\theta)}{P(\text{data})}.$$
 
 The denominator is the evidence, often difficult to compute directly, but unnecessary for parameter estimation with MCMC.
 
@@ -120,14 +102,9 @@ MCMC constructs a Markov chain whose stationary distribution is the posterior. F
 
 1. Proposing a new parameter set ( \theta' ).
 2. Computing the acceptance ratio:
-$
-\alpha =
-\min\left(
-1,
-\dfrac{\mathcal{L}(\theta') P(\theta')}
-{\mathcal{L}(\theta) P(\theta)}
-\right).
-$
+
+$$\alpha = \min\left(1,\dfrac{\mathcal{L}(\theta') P(\theta')}{\mathcal{L}(\theta) P(\theta)}\right).$$
+
 3. Accepting or rejecting the proposal probabilistically.
 
 After convergence, the sampled chain approximates the posterior distribution. From this, you can estimate:
