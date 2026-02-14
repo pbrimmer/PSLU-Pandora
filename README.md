@@ -78,7 +78,7 @@ Suppose your atmospheric model predicts a transmission spectrum $ m(\lambda; \th
 
 Assuming Gaussian observational errors with variance $\sigma_i^2$, the likelihood is
 
-$$\mathcal{L}(\theta) = \prod_i \dfrac{1}{\sqrt{2\pi \sigma_i^2}} \exp\left\{-\dfrac{[f_i - m_i(\theta)]^2}{2\sigma_i^2} \right\}.$$
+$$\mathcal{L}(\theta) = \prod_i \dfrac{1}{\sqrt{2\pi \sigma_i^2}} \exp\left(-\dfrac{[f_i - m_i(\theta)]^2}{2\sigma_i^2} \right).$$
 
 ## Priors
 
