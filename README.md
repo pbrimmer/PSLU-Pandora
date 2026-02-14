@@ -6,6 +6,8 @@ Welcome, intrepid explorers, to Pandora!
 
 Pandora was identified as a transiting exoplanet of radius $3 R_{\oplus}$ orbiting $0.03$ AU from a relatively quiet M5V star ($R_* = 0.2 R_{\odot}$, $T_* = 2800$ K), first detected through a subtle, periodic dimming of stellar flux that hinted at the presence of a planetary companion crossing the stellar disk. Subsequent observations by a next-generation space telescope provided transmission spectroscopy. The result is the dataset you now hold in synthetic form: a transmission spectrum of an alien world.
 
+![Alt text](path/to/image.png)
+
 This practical invites you to interpret this transmission spectrum. Your task is to determine whether Pandora’s atmospheric chemistry might plausibly hint at biological activity, or whether the spectrum is fully explicable by abiotic processes.
 
 Download the repository. Load the spectrum. Examine it carefully. Then begin the search.
