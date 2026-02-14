@@ -24,7 +24,7 @@ At wavelengths where atmospheric molecules absorb strongly, the effective altitu
 
 $$H = \dfrac{k_B T}{\mu m_p g},$$
 
-which sets the vertical distance over which pressure decreases significantly. Hotter atmospheres, lower gravity, or lighter mean molecular weight gases all increase $H$, amplifying spectral modulation. The height of spectroscopic signals can give a hint at molecules that could be present in abundance in an atmosphere, and that would be otherwise difficult to detect, especially molecules with small or no dipole moment, such as N$_2$ or H$_2$.
+which sets the vertical distance over which pressure decreases significantly. Hotter atmospheres, lower gravity, or lighter mean molecular weight gases all increase $H$, amplifying spectral modulation. The height of spectroscopic signals can give a hint at molecules that could be present in abundance in an atmosphere, and that would be otherwise difficult to detect, especially molecules with small or no dipole moment, such as N₂ or H₂.
 
 Your dataset consists of transit depths across a range of wavelengths. Hidden within that function may be absorption bands corresponding to specific molecules.
 
