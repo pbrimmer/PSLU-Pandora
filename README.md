@@ -100,7 +100,7 @@ The denominator is the evidence, often difficult to compute directly, but unnece
 
 MCMC constructs a Markov chain whose stationary distribution is the posterior. For example, the Metropolis–Hastings algorithm proceeds by:
 
-1. Proposing a new parameter set ( \theta' ).
+1. Proposing a new parameter set ($\theta'$).
 2. Computing the acceptance ratio:
 
 $$\alpha = \min\left(1,\dfrac{\mathcal{L}(\theta') P(\theta')}{\mathcal{L}(\theta) P(\theta)}\right).$$
