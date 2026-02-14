@@ -16,9 +16,7 @@ Download the repository. Load the spectrum. Examine it carefully. Then begin the
 
 When an exoplanet transits its host star, the observed stellar flux decreases because the planet blocks a fraction of the stellar disk. The wavelength-dependent transit depth is:
 
-$
-\delta(\lambda) = \left[\dfrac{R_p(\lambda)}{R_*}\right]^2.
-$
+$$\delta(\lambda) = \left[\dfrac{R_p(\lambda)}{R_*}\right]^2.$$
 
 where $R_p$ is the planetary radius, $\lambda$ the wavelength, and $R_*$ is the stellar radius.
 
