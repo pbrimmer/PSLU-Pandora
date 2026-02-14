@@ -137,12 +137,7 @@ After you identify molecules, discuss among yourselves whether these are indicat
 
 1. Plot and inspect the synthetic transmission spectrum.
 2. Identify candidate absorption features using the technique that you think is most appropriate.
-5. Consider context evidence for life.
-6. Argue for or against the plausibility of biological activity.
+3. Consider context evidence for life.
+4. Argue for or against the plausibility of biological activity.
 
-Document not only what you conclude, but why.
-
-Download the repository.
-Run the code.
-
-Somewhere in the noise may lie the atmospheric signatures of a living world.
+Search with care! Somewhere in the noise may lie the atmospheric signatures of a living world.
