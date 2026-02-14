@@ -68,7 +68,7 @@ Retrievals that are informed by Bayes are useful to answer the question: How sig
 
 ## The Forward Model
 
-Suppose your atmospheric model predicts a transmission spectrum $ m(\lambda; \theta)$, where $\theta$ represents parameters such as:
+Suppose your atmospheric model predicts a transmission spectrum $m(\lambda; \theta)$, where $\theta$ represents parameters such as:
 
 * Temperature $T$
 * Molecular abundances $X_i$
