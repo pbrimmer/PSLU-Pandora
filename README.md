@@ -126,4 +126,8 @@ After you identify molecules, discuss among yourselves whether these are indicat
 3. Consider the planetary context. How does that modify spectroscopic evidence for life?
 4. Argue for or against the plausibility of biological activity.
 
-Search with care! Somewhere in the noise may lie the atmospheric signatures of a living world.
+Search well! Somewhere in the noise may lie the atmospheric signatures of a living world.
+
+# Small Detail
+
+If each point on this plot were a transit, how much telescope time would be required to get this data?
