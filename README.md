@@ -128,6 +128,8 @@ After you identify molecules, discuss among yourselves whether these are indicat
 
 Search well! Somewhere in the noise may lie the atmospheric signatures of a living world.
 
-# Small Detail
+# Small Detail (some challenge questions for the observers among you)
 
-If each point on this plot were a transit, how much telescope time would be required to get this data?
+1. If each point on this plot were a transit, how much telescope time would be required to get this data?
+1. How close would this star have to be, in order for JWST to get data of this rough quality in one transit?
+1. How close would this star have to be, in order for JWST to get data of this rough quality in 100 hours observing time?
